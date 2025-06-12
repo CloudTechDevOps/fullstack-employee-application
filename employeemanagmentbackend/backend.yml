@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: 927827734038.dkr.ecr.us-east-1.amazonaws.com/backend:latest
+          image: 748848478747.dkr.ecr.ap-south-1.amazonaws.com/backend:latest
           ports:
             - containerPort: 8080
 
@@ -31,6 +31,6 @@ spec:
     app: backend
   ports:
     - protocol: TCP
-      port: 8080
+      port: 80
       targetPort: 8080
   type: LoadBalancer
