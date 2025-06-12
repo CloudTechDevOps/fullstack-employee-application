@@ -1,7 +1,7 @@
 import axios from "axios";
 
-//const BASE_URL = process.env.REACT_APP_BACKEND_URL
-const BASE_URL = "http://38.06.37.4:8080/employee";
+const BASE_URL = "http://veera.narni.co.in/employee";    //For kubernetes deployment
+//const BASE_URL = "http://38.06.37.4:8080/employee";      // For server deployment on aws   
 // const BASE_URL = process.env.REACT_APP_BASE_URL ; // Fallback URL
 class EmployeeService{
 
