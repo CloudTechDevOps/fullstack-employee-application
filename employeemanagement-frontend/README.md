@@ -1,5 +1,5 @@
 ----------------------------------------   frontend ------------------------------------------------------
-connect to frontend instance install below dependencies 
+### connect to frontend instance install below dependencies 
 ```
 sudo apt-get update 
 #Install Java 17
