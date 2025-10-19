@@ -2,8 +2,6 @@
 ### connect to frontend instance install below dependencies 
 ```
 sudo apt-get update 
-#Install Java 17
-sudo apt install openjdk-17-jdk openjdk-17-jre -y
 #Install Nodejs
 curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash - &&\
 sudo apt-get install -y nodejs 
@@ -21,10 +19,12 @@ vi EmployeeService.js
 
 const BASE_URL = "http://52.87.237.51:8080/employee";
 
-#BUILD FrontEnd APP gi to frontned directory then install and start 
+#BUILD FrontEnd APP gi to frontned directory then install and start
+
 cd ../../
+
 npm install
 
-nohup npm start > app.log 2>&1 &
+nohup npm start >> app.log 2>&1 &
 ```
 ----------------frontend part is completed -----------------------------------
